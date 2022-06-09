@@ -32,6 +32,6 @@ def maximum_subarray_size_k(nums, k):
     
     return max_sum
 
-test1 = [2,1,5,1,3,2]
-k = 3
-print(maximum_subarray_size_k(test1, k))
+test2 = [2,3,4,1,5]
+k = 2
+print(maximum_subarray_size_k(test2, k))
