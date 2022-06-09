@@ -27,8 +27,9 @@ def maximum_subarray_size_k(nums, k):
         window_sum += nums[right]
         if right - left + 1 == k:
             max_sum = max(max_sum, window_sum)
+            print(max_sum)
             window_sum -= nums[left]
-            ++left
+            left += 1
     
     return max_sum
 
